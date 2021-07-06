@@ -1,4 +1,4 @@
-# DynamoRIO integration with Ghidra
+# DynamoRIO-x-Ghidra
 Convert drcov text log for use in Ghidra scripting engine
 
 ## Why is this helpful?
