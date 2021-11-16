@@ -2,7 +2,7 @@
 Convert drcov text log for use in Ghidra scripting engine
 
 ## Why is this helpful?
-It was a pain in the ass perform malware code coverage analysis in Ghidra without assistance. Therefore, I utilised DynamoRIO and Ghidra scripting engine to reduce the need of analysing the binary function by function. At some point I got lazy and decided to create a simple script to dump drcov output into a Python friendly format.
+While performing malware code analysis. I realised it was tedious to do pinpoint how the binary works and in what particular order (function calls). Therefore, I utilised DynamoRIO and Ghidra scripting engine to remove functions that weren't called during the run.
 
 ## What to improve?
 Still unsure of how I am going to perform analysis for packed malwares with this method. Will update once I figure it out.
