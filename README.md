@@ -1,7 +1,7 @@
 # DynamoRIO-x-Ghidra
 Convert drcov text log for use in Ghidra scripting engine
 
-<!-- display-subdirectories: true -->
+<!-- display-subdirectories: false -->
 
 ## Why is this helpful?
 While performing malware code analysis. I realised it was tedious to do pinpoint how the binary works and in what particular order (function calls). Therefore, I utilised DynamoRIO and Ghidra scripting engine to remove functions that weren't called during the run.
